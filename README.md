@@ -41,9 +41,11 @@ main/
 │    ├── constants.py
 │    └── custom_outlier.py
 └── julia_folder/
-    ├── project_julia.jl
+    ├── julia_introduction.ipynb
     ├── project_julia.ipynb
-    └── constants.jl
+    ├── constants.jl
+    ├── Manifest.toml
+    └── Project.toml
     
 ```
 
@@ -54,7 +56,8 @@ So in "py_folder", you can see a somewhat simple pipeline for data preprocessing
 
 In "julia_folder" you have: 
 - "julia_introduction.ipynb" where you can see how to activate notebooks in Julia (which is useful) and how to activate the environment. After that, in that same notebook, I explain some of Julia's particularities.
-- "project_julia.jl" or "project_julia.ipynb" to run the project
+- "Manifest.toml" and "Project.toml" for environment and dependencies control
+- "project_julia.ipynb" to run the project
 
 ## Future implementations
 
